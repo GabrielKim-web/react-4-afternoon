@@ -26,6 +26,7 @@ export default class Student extends Component {
         <h1>Student {first_name + ' ' + last_name}</h1>
         <h3>Grade: {grade}</h3>
         <h3>Email: {email}</h3>
+        {/* Black Diamond: Looks like each student has a class key-value pair! */}
         <Link to={`/classList/${this.state.studentInfo.class}`}><h4>Go back to classlist</h4></Link>
       </div>
     )
